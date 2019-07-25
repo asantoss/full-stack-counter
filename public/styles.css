@@ -1,0 +1,23 @@
+.wrapper{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: repeat(2,1fr);
+}
+.container{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+#currentCount{
+    font-size: 80px;
+}
+#increment{
+    margin: 10px 20px;
+}
+#decrement{
+    margin: 10px 20px;
+}
